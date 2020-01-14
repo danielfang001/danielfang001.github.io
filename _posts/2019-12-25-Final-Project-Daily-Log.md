@@ -26,9 +26,10 @@ Today, I read about the code that I posted yesterday. We used his code as the ba
 dataValid.close() 
 
 **January 10th**
+Wellness Day
 
 **January 13th**
-
+Today, I worked on researching the third way of preprocessing out data, which is to use the sound waveform of the music and transform it somehow to plug it into LSTM. I read a paper who directly inputs the audio but doesn't necessarily explain how they process the data so it becomes a matrix/vector. I found another example using GANs, which is a way to analyze parameters of the tone. However, result is the same piece of music with different tone, but we want actually different piece of music that the computer composes. Then I read about another paper, which explained that they used Fourier transformation to process the original audio file into frequency representations.  They claimed that they were attempting to avoid and disregard the natural inclusion of music theories if they consider the specific notes and pitches, which the midi method provides. Tomorrow, I will need to try it with our own data, Fourier transformation (also different kinds of FTTs) is built-in in numpy so I can test it out right away tomorrow. 
 **January 15th**
 
 **January 16th**
